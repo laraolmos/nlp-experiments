@@ -2,7 +2,7 @@
 # Sentence Embedding
 
 
-With a language model constructed from a sentence corpus we can give a representation for each sentence (sentence embedding) or, similarly, form a vector encoding for it (sentence encoder) and maybe generalize to *not seen sentences*. That sentence embedding can be lately used in NLP and ML model for a specific task.
+With a language model constructed from a sentence corpus we can give a representation for each sentence (sentence embedding) or, similarly, form a vector encoding for it (sentence encoder) and maybe generalize to *not seen sentences*. That sentence embedding can be lastly used in NLP and ML model for a specific task.
 
 The state-of-art language models are based on pre-trained word embedding with predictive perspective (word2vec: CBOW and skip-gram), or coocurrences and count based (GloVe) or with more rich sub-word information (FastText), convolutional based (spaCy) or sequential language information based (ELMo), or other publication and DIY models (combination of convolutional, sequential blocks; or character based; or more complex ones with siamese, encoder-decoder, etc.). Also, could be usefull to compare and try distributed representations (Paragraph Vector, Doc2vec) and bayesian models with topics (LDA, LDA2Vec) more used directly for documents representation.
 
